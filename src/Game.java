@@ -31,6 +31,8 @@ public class Game extends JPanel implements KeyListener, ActionListener {
     private int spaceshipX = 0;
     private int spaceshipY = 485;
     private int spaceshipSpeedX =20;
+
+    // check done
     public Game(){
         try{
             image = ImageIO.read(new FileImageInputStream(new File("spaceship.png")));
